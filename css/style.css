@@ -230,61 +230,10 @@ table {
   background-size: 100% auto;
 }
 
-.main {
-  width: 700px;
-  margin: 0 10px;
-  float: left;
-}
-
-.sidebar {
-  width: 200px;
-  margin: 0 10px 0 30px;
-  float: right;
-  font-family: 'Bitter', serif;
-}
-
 a img:hover {
   opacity: 0.8;
 }
 
-.sidebar h2 {
-  margin-bottom: 10px;
-}
-
-.sidebar ul {
-  font-size: 16px;
-  margin-left: 20px;
-}
-
-.sidebar ul a {
-  color: #333333;
-}
-
-#photograph {
-  background-image: url(../images/bg-photograph.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-#photograph .photograph-list li {
-  float: left;
-  list-style: none;
-  margin: 0 20px 15px 0;
-}
-
-#photograph .photograph-list li:nth-child(3n) {
-  margin-right: 0;
-}
-
-#video {
-  background-image: url(../images/bg-video.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
 
 #contact {
   background-image: url(../images/bg-about.png);
@@ -430,11 +379,7 @@ a img:hover {
     width: 100%;
   }
   
-  .main {
-    float: none;
-    width: auto;
-    margin: 0 5%;
-  }
+ 
   
   h2 img {
     max-width: 100%;
@@ -444,13 +389,6 @@ a img:hover {
     background-image: url(../images/bg-index.jpg);
   }
   
-  .sidebar {
-    width: auto;
-    float: none;
-    margin: 0;
-    padding: 30px 10% 10px;
-    background-color: #f7f6f4;
-  }
   
 .product-list img {
   margin-bottom: 10px;
@@ -473,7 +411,7 @@ a img:hover {
 
 
 
-/* about を修理する必要あり。 */
+/* products を修理する必要あり。 */
 
 #top {
   padding-top: 80px;
@@ -484,6 +422,7 @@ a img:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .product-list li {
   width: 23%;
   margin-bottom: 40px;
