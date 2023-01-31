@@ -103,7 +103,7 @@ footer small {
 }
 
 #index h1 {
-  font-size: 100px;
+  font-size: 50px;
   line-height: 1;
   color: #ffffff;
   font-family: "Bitter", serif;
@@ -140,19 +140,26 @@ footer small {
   color: #009cd3;
 }
 
-#index footer {
+/* #index footer {
   width: 960px;
   margin: 100px auto 0 auto;
   text-align: left;
   background-color: transparent;
+} */
+
+#index footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: #767671;
 }
 
 #index {
-  background-image: url(../images/bg-index.jpg);
+  background-image: url(../images/bg-about.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% auto;
 }
 
 #about {
