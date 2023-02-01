@@ -133,20 +133,16 @@ img {
   margin-top: 5.6rem;
 }
 .header-banner.banner-one {
-  background: var(--gradient),
-    url(../images/banner_bg_1.jpg) center/cover no-repeat;
+  background: var(--gradient), url(../images/banner1.png) center/cover no-repeat;
 }
 .header-banner.banner-two {
-  background: var(--gradient),
-    url(../images/banner_bg_2.jpg) center/cover no-repeat;
+  background: var(--gradient), url(../images/banner2.jpg) center/cover no-repeat;
 }
 .header-banner.banner-three {
-  background: var(--gradient),
-    url(../images/banner_bg_3.jpg) center/cover no-repeat;
+  background: var(--gradient), url(../images/banner2.jpg) center/cover no-repeat;
 }
 .header-banner.banner-four {
-  background: var(--gradient),
-    url(../images/banner_bg_4.jpg) center/cover no-repeat;
+  background: var(--gradient), url(../images/banner2.jpg) center/cover no-repeat;
 }
 .header-banner .container {
   max-width: 248px;
